@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta lang="es" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Festival de música, Estéreo Picnic, FEP, Bogotá"
+    />
+    <meta
+      name="description"
+      content="Los días 25, 26 y 27 de marzo de 2022 FEP volverá a Briceño 18 para una nueva edición del Festival de música más importante de Colombia."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Festival Estéreo Picnic 2022</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <a href="./index.html"><img src="./img/logo.png" alt="logo" /></a>
+        <div class="burger-nav"><i class="fa fa-bars"></i></div>
+        <ul class="desktop-nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./artistas.html" class="active">Artistas</a></li>
+          <li><a href="./ubicacion.html">Ubicación</a></li>
+          <li>
+            <a href="https://feppers.co/" target="_blank">Club Feppers</a>
+          </li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="burger-menu">
+        <ul class="burger-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./artistas.html" class="active">Artistas</a></li>
+          <li><a href="./ubicacion.html">Ubicación</a></li>
+          <li>
+            <a href="https://feppers.co/" target="_blank">Club Feppers</a>
+          </li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- INICIA CONTENIDO -->
+
+    <section class="artistas-por-dia">
+      <div class="container">
+        <div class="artistas-header">
+          <button>
+            <a href="./artistas.html">
+              <i class="fa fa-angle-left"></i>
+            </a>
+          </button>
+          <div class="artistas-title">
+            <h1>VIERNES</h1>
+            <h2>25 DE MARZO</h2>
+          </div>
+          <button>
+            <a href="./artistas_sabado.html">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </button>
+        </div>
+        <div class="viernes">
+          <div class="galeria-artistas">
+            <img src="img/foofighters.jpg" alt="Foo Figthers" />
+            <p>Foo Figthers</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/nile.jpg" alt="Nile Rodgers & Chics" />
+            <p>Nile Rodgers & Chics</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/libertines.jpg" alt="The Libertines" />
+            <p>The Libertines</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/blackpumas.jpg" alt="Black Puma" />
+            <p>Black Pumas</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/kaytranada.jpg" alt="Kaytranada" />
+            <p>Kaytranada</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/claptone.jpg" alt="Claptone" />
+            <p>Claptone</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/diamante.jpg" alt="Diamante Eléctrico" />
+            <p>Diamante Eléctrico</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/IDLES.png" alt="IDELS" />
+            <p>IDLES</p>
+          </div>
+          <div class="galeria-artistas">
+            <img src="img/TheDrums.jpg" alt="The Drums" />
+            <p>The Drums</p>
+          </div>
+        </div>
+        <button class="boton-volver">
+          <a href="artistas.html">Volver</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- FIN DEL CONTENIDO -->
+
+    <footer id="footer">
+      <div class="container">
+        <h1>CONTACTO</h1>
+        <div class="contenido">
+          <div id="contacto">
+            <form action="">
+              <div class="input-container">
+                <label for="nombre">Nombre</label>
+                <input
+                  required
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                  placeholder="Ingresar nombre"
+                />
+              </div>
+              <div class="input-container">
+                <label for="apellido">Apellido</label>
+                <input
+                  required
+                  type="text"
+                  name="apellido"
+                  id="apellido"
+                  placeholder="Ingresar apellido"
+                />
+              </div>
+              <div class="input-container">
+                <label for="email">Correo electrónico</label>
+                <input
+                  required
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Ingresar correo electrónico"
+                />
+              </div>
+              <div class="input-container">
+                <label for="asunto">Asunto</label>
+                <input
+                  required
+                  type="text"
+                  name="asunto"
+                  id="asunto"
+                  placeholder="Ingresar asunto"
+                />
+              </div>
+              <div class="textarea-container">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  required
+                  name="mensaje"
+                  id="mensaje"
+                  placeholder="Ingresar mensaje"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="submit">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="contenido2">
+            <img src="./img/header.png" alt="logo" />
+            <ul class="links">
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./artistas.html">Artistas</a></li>
+              <li><a href="./ubicacion.html">Ubicación</a></li>
+              <li>
+                <a href="https://feppers.co/" target="_blank">Club Feppers</a>
+              </li>
+              <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+            <div class="social-media">
+              <button>
+                <a href="https://twitter.com/Festereopicnic_" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://www.instagram.com/festereopicnic"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://www.youtube.com/user/EstereoPicnic"
+                  target="_blank"
+                >
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p>&copy; FESTIVAL ESTÉREO PICNIC 2022</p>
+        <hr />
+        <br />
+        <div class="contenido3">
+          <div class="integrantes">
+            <ul>
+              <li>Coppe, María Agustina (LU: 1126003)</li>
+              <li>Doria, Rocío Agustina (LU: 1153366)</li>
+              <li>Durante, Lorenzo (LU: 1159929)</li>
+              <li>Lasalde Pataro, Tomás (LU: 1152602)</li>
+              <li>Piccini, Gabriel Adrian (LU: 1109432)</li>
+              <li>Regueira, Juan Pablo (LU: 1156387)</li>
+              <li>Santoro, Juan Ignacio (LU: 1156565)</li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="./img/uade.png" alt="uade logo" />
+          </div>
+          <div class="info">
+            <ul>
+              <li>Licenciatura en Gestión de Tecnología de la Información</li>
+              <li>Tecnicatura Universitaria en Desarrollo de Software</li>
+              <li>Facultad de Ingeniería y Ciencias Exactas</li>
+              <li>28 de Junio de 2022</li>
+              <li>David Ernesto Ayala Velarde</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
